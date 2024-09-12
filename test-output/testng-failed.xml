@@ -5,7 +5,9 @@
     <classes>
       <class name="SuregSdet8.TestCases">
         <methods>
+          <include name="openapp"/>
           <include name="open3"/>
+          <include name="DashboedTest"/>
         </methods>
       </class> <!-- SuregSdet8.TestCases -->
     </classes>

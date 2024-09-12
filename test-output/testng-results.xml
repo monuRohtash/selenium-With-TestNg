@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-12T12:06:55 IST" name="Default suite" finished-at="2024-09-12T12:07:10 IST" duration-ms="14384">
+  <suite started-at="2024-09-13T00:19:46 IST" name="Suite" finished-at="2024-09-13T00:20:20 IST" duration-ms="33992">
     <groups>
     </groups>
-    <test started-at="2024-09-12T12:06:55 IST" name="Default test" finished-at="2024-09-12T12:07:10 IST" duration-ms="14384">
+    <test started-at="2024-09-13T00:19:46 IST" name="Test-1" finished-at="2024-09-13T00:20:20 IST" duration-ms="33992">
       <class name="SuregSdet8.TestCases">
-        <test-method signature="OpenApp()[pri:0, instance:SuregSdet8.TestCases@434a63ab]" started-at="2024-09-12T12:06:55 IST" name="OpenApp" finished-at="2024-09-12T12:07:10 IST" duration-ms="14349" status="PASS">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:SuregSdet8.TestCases@73e9cf30]" started-at="2024-09-13T00:19:46 IST" name="openapp" finished-at="2024-09-13T00:20:03 IST" duration-ms="16542" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenApp -->
+        </test-method> <!-- openapp -->
+        <test-method signature="TitleLogin()[pri:0, instance:SuregSdet8.TestCases@73e9cf30]" started-at="2024-09-13T00:20:12 IST" name="TitleLogin" finished-at="2024-09-13T00:20:15 IST" duration-ms="2953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleLogin -->
+        <test-method signature="Test()[pri:1, instance:SuregSdet8.TestCases@73e9cf30]" started-at="2024-09-13T00:20:15 IST" name="Test" finished-at="2024-09-13T00:20:19 IST" duration-ms="3923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method is-config="true" signature="open3()[pri:0, instance:SuregSdet8.TestCases@73e9cf30]" started-at="2024-09-13T00:20:19 IST" name="open3" finished-at="2024-09-13T00:20:20 IST" duration-ms="1183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open3 -->
       </class> <!-- SuregSdet8.TestCases -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="SuregSdet8.TestCases2">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:SuregSdet8.TestCases2@534a5a98]" started-at="2024-09-13T00:20:03 IST" name="openapp" finished-at="2024-09-13T00:20:12 IST" duration-ms="9045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="TitleLogin()[pri:0, instance:SuregSdet8.TestCases2@534a5a98]" started-at="2024-09-13T00:20:19 IST" name="TitleLogin" finished-at="2024-09-13T00:20:19 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleLogin -->
+      </class> <!-- SuregSdet8.TestCases2 -->
+    </test> <!-- Test-1 -->
+  </suite> <!-- Suite -->
 </testng-results>
